@@ -1,0 +1,34 @@
+{
+  "name": "linter-lsl2",
+  "main": "./lib/linter-lsl2",
+  "version": "0.0.0",
+  "description": "A linter provider for LSL2, depends on language-lsl2.",
+  "keywords": [
+    "linter",
+    "lsl2",
+    "lsl"
+  ],
+  "repository": "https://github.com/jomik/atom-linter-lsl2",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-package-deps": "^4.6.0",
+    "atom-linter": "^10.0.0"
+  },
+  "package-deps": [
+    "linter",
+    "language-lsl2"
+  ],
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "2.0.0": "provideLinter"
+      }
+    }
+  },
+  "devDependencies": {
+    "prettier": "^1.14.3"
+  }
+}

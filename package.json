@@ -1,7 +1,7 @@
 {
   "name": "linter-lsl2",
   "main": "./lib/linter-lsl2",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A linter provider for LSL2, depends on language-lsl2.",
   "keywords": [
     "linter",
